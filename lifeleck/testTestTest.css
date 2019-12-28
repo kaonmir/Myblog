@@ -1,0 +1,37 @@
+#section_navbar {
+  height: 30px;
+  width: 900px;
+}
+#section_navbar ul {
+  list-style: none;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+#section_navbar ul li {
+  list-style: none;
+  color: rgba(22, 236, 2);
+  background-color: white;
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 14px;
+}
+#section_navbar .menuLink {
+  text-decoration: none;
+  color: rgba(22, 236, 2);
+  display: block;
+  width: 52px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#section_navbar .menuLink a {
+  text-decoration: none;
+  color: rgba(22, 236, 2);
+}
+#section_navbar .menuLink:hover {
+  background-color: #dddddd;
+}
