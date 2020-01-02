@@ -1,19 +1,25 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Technology from "./pages/Technology";
 import "./App.css";
-import Header from "./common/Header";
-import MainImage from "./common/MainImage";
-import About from "./common/About";
-import Contact from "./common/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <MainImage />
-      <About />
-      <Contact />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/technology" component={Technology}/>
+          <Route path="/pinned" />
+        </Switch>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;

@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+    height: 110px;
+    width: 100%;
+
+    background-size: cover;
+    background-position: 30%;
+
+    margin-bottom: 50px;
+}
+.header_name {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+
+    text-decoration: none;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3.5%;
+    color: #D0EBFF;
+    opacity: 80%;
+}
+.header_name:hover {
+    opacity: 10%;
+    transition: 5s;
+}
+
+.login {
+    position: absolute;
+    border-radius: 5px;
+    right: 1%;
+    top: 4%;
+    font-size: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.login:hover {
+    color: rgba(215, 217, 233, 0.616);
+    opacity: 80%;
+    cursor: pointer;
+}

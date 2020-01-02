@@ -22,23 +22,6 @@ class Header extends Component {
         break;
     }
   };
-  handleclickMenu = e => {
-    switch (e.target.id) {
-      case "Home":
-        /* Example of Fetch with nodejs
-        fetch("http://localhost:4000/")
-          .then(response => response.json())
-          .then(({ data }) => {
-            console.log(data);
-          })
-          .catch(error => console.log(error));
-        */
-        break;
-
-      default:
-        break;
-    }
-  };
   render() {
     return (
       <header id="header">

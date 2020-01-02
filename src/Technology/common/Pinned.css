@@ -1,0 +1,57 @@
+.pinned {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.pinned_title {
+    float: left;
+    text-align: start;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.pinned_edit {
+    float: right;
+    text-decoration: none;
+    color: #797979;
+}
+.pinned_edit:hover {
+    color: #222222;
+    cursor: pointer;
+}
+.pinned_line {
+    float:left;
+    height: 0;
+    width: 100%;
+    border: solid 2px black;
+}
+.pinned_main {
+    float:left; 
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.theme {
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.theme_image {
+    height: 60%;
+    width: 100%;
+    border-radius: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-bottom: 10px;
+}
+.theme_text {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}

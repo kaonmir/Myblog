@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 import "./MainImage.css";
 
 import literature_image from "../image/literature_section.jpg";
@@ -12,19 +13,19 @@ class MainImage extends Component {
         <div className="section">
           <img src={literature_image} alt="literature"></img>
           <div className="section_inner">
-            <a href="">Literature</a>
+            <Link to="/literature">Literature</Link>
           </div>
         </div>
         <div className="section">
           <img src={technology_image} alt="technology"></img>
           <div className="section_inner">
-            <a href="">Technology</a>
+            <Link to="/technology">Technology</Link>
           </div>
         </div>
         <div className="section">
           <img src={dailylife_image} alt="dailylife"></img>
           <div className="section_inner">
-            <a href="">Daily Life</a>
+            <Link to="/dailylife">Daily Life</Link>
           </div>
         </div>
       </section>

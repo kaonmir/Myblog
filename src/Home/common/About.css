@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower&subset=latin);
+
 #about {
   display: block;
   position: relative;
@@ -34,10 +37,11 @@
   min-height: 100%;
   margin-top: -20%;
 }
+
 .profile_description {
   font-size: 30px;
   font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Indie Flower', sans-serif;
   letter-spacing: 6px;
 }
 
@@ -50,14 +54,19 @@
   display: block;
   height: auto;
   padding-left: 30px;
+  font-family: 'Indie Flower', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  word-spacing: 4px;
+  line-height: 38px;
 }
+
 .description_text p {
   margin-top: 25px;
   margin-bottom: 25px;
   text-align: left;
 
   font-size: 27px;
-  font-family: cursive;
 }
 .description_text p.text_small {
   font-size: 24px;
@@ -85,8 +94,9 @@
   height: 63px;
 
   float: left;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 8px;
 }
 
 #language_images_html5 {
